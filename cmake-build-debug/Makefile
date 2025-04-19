@@ -84,6 +84,51 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 .PHONY : rebuild_cache/fast
 
+# Special rule for the target list_install_components
+list_install_components:
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Available install components are: \"Unspecified\""
+.PHONY : list_install_components
+
+# Special rule for the target list_install_components
+list_install_components/fast: list_install_components
+.PHONY : list_install_components/fast
+
+# Special rule for the target install
+install: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Install the project..."
+	"C:\Program Files\JetBrains\CLion 2024.2.0.1\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake
+.PHONY : install
+
+# Special rule for the target install
+install/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Install the project..."
+	"C:\Program Files\JetBrains\CLion 2024.2.0.1\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake
+.PHONY : install/fast
+
+# Special rule for the target install/local
+install/local: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing only the local directory..."
+	"C:\Program Files\JetBrains\CLion 2024.2.0.1\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local
+
+# Special rule for the target install/local
+install/local/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing only the local directory..."
+	"C:\Program Files\JetBrains\CLion 2024.2.0.1\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local/fast
+
+# Special rule for the target install/strip
+install/strip: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing the project stripped..."
+	"C:\Program Files\JetBrains\CLion 2024.2.0.1\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip
+
+# Special rule for the target install/strip
+install/strip/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing the project stripped..."
+	"C:\Program Files\JetBrains\CLion 2024.2.0.1\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip/fast
+
 # The main all target
 all: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug\CMakeFiles C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug\\CMakeFiles\progress.marks
@@ -127,6 +172,175 @@ Project3: cmake_check_build_system
 Project3/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Project3.dir\build.make CMakeFiles/Project3.dir/build
 .PHONY : Project3/fast
+
+#=============================================================================
+# Target rules for targets named uninstall
+
+# Build rule for target.
+uninstall: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 uninstall
+.PHONY : uninstall
+
+# fast build rule for target.
+uninstall/fast:
+	$(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\CMakeFiles\uninstall.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/CMakeFiles/uninstall.dir/build
+.PHONY : uninstall/fast
+
+#=============================================================================
+# Target rules for targets named fltk_z
+
+# Build rule for target.
+fltk_z: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 fltk_z
+.PHONY : fltk_z
+
+# fast build rule for target.
+fltk_z/fast:
+	$(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\zlib\CMakeFiles\fltk_z.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/zlib/CMakeFiles/fltk_z.dir/build
+.PHONY : fltk_z/fast
+
+#=============================================================================
+# Target rules for targets named fltk_png
+
+# Build rule for target.
+fltk_png: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 fltk_png
+.PHONY : fltk_png
+
+# fast build rule for target.
+fltk_png/fast:
+	$(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\png\CMakeFiles\fltk_png.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/png/CMakeFiles/fltk_png.dir/build
+.PHONY : fltk_png/fast
+
+#=============================================================================
+# Target rules for targets named fltk_jpeg
+
+# Build rule for target.
+fltk_jpeg: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 fltk_jpeg
+.PHONY : fltk_jpeg
+
+# fast build rule for target.
+fltk_jpeg/fast:
+	$(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/build
+.PHONY : fltk_jpeg/fast
+
+#=============================================================================
+# Target rules for targets named fltk
+
+# Build rule for target.
+fltk: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 fltk
+.PHONY : fltk
+
+# fast build rule for target.
+fltk/fast:
+	$(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\src\CMakeFiles\fltk.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/src/CMakeFiles/fltk.dir/build
+.PHONY : fltk/fast
+
+#=============================================================================
+# Target rules for targets named fltk_forms
+
+# Build rule for target.
+fltk_forms: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 fltk_forms
+.PHONY : fltk_forms
+
+# fast build rule for target.
+fltk_forms/fast:
+	$(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\src\CMakeFiles\fltk_forms.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/src/CMakeFiles/fltk_forms.dir/build
+.PHONY : fltk_forms/fast
+
+#=============================================================================
+# Target rules for targets named fltk_images
+
+# Build rule for target.
+fltk_images: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 fltk_images
+.PHONY : fltk_images
+
+# fast build rule for target.
+fltk_images/fast:
+	$(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\src\CMakeFiles\fltk_images.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/src/CMakeFiles/fltk_images.dir/build
+.PHONY : fltk_images/fast
+
+#=============================================================================
+# Target rules for targets named fltk_gl
+
+# Build rule for target.
+fltk_gl: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 fltk_gl
+.PHONY : fltk_gl
+
+# fast build rule for target.
+fltk_gl/fast:
+	$(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\src\CMakeFiles\fltk_gl.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/src/CMakeFiles/fltk_gl.dir/build
+.PHONY : fltk_gl/fast
+
+#=============================================================================
+# Target rules for targets named fluid-lib
+
+# Build rule for target.
+fluid-lib: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 fluid-lib
+.PHONY : fluid-lib
+
+# fast build rule for target.
+fluid-lib/fast:
+	$(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\fluid\CMakeFiles\fluid-lib.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fluid/CMakeFiles/fluid-lib.dir/build
+.PHONY : fluid-lib/fast
+
+#=============================================================================
+# Target rules for targets named fluid
+
+# Build rule for target.
+fluid: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 fluid
+.PHONY : fluid
+
+# fast build rule for target.
+fluid/fast:
+	$(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\fluid\CMakeFiles\fluid.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fluid/CMakeFiles/fluid.dir/build
+.PHONY : fluid/fast
+
+#=============================================================================
+# Target rules for targets named fluid-cmd
+
+# Build rule for target.
+fluid-cmd: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 fluid-cmd
+.PHONY : fluid-cmd
+
+# fast build rule for target.
+fluid-cmd/fast:
+	$(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\fluid\CMakeFiles\fluid-cmd.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fluid/CMakeFiles/fluid-cmd.dir/build
+.PHONY : fluid-cmd/fast
+
+#=============================================================================
+# Target rules for targets named fltk-options
+
+# Build rule for target.
+fltk-options: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 fltk-options
+.PHONY : fltk-options
+
+# fast build rule for target.
+fltk-options/fast:
+	$(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\fltk-options\CMakeFiles\fltk-options.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fltk-options/CMakeFiles/fltk-options.dir/build
+.PHONY : fltk-options/fast
+
+#=============================================================================
+# Target rules for targets named fltk-options-cmd
+
+# Build rule for target.
+fltk-options-cmd: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 fltk-options-cmd
+.PHONY : fltk-options-cmd
+
+# fast build rule for target.
+fltk-options-cmd/fast:
+	$(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\fltk-options\CMakeFiles\fltk-options-cmd.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fltk-options/CMakeFiles/fltk-options-cmd.dir/build
+.PHONY : fltk-options-cmd/fast
 
 Graph.obj: Graph.cpp.obj
 .PHONY : Graph.obj
@@ -183,8 +397,25 @@ help:
 	@echo ... clean
 	@echo ... depend
 	@echo ... edit_cache
+	@echo ... install
+	@echo ... install/local
+	@echo ... install/strip
+	@echo ... list_install_components
 	@echo ... rebuild_cache
+	@echo ... uninstall
 	@echo ... Project3
+	@echo ... fltk
+	@echo ... fltk-options
+	@echo ... fltk-options-cmd
+	@echo ... fltk_forms
+	@echo ... fltk_gl
+	@echo ... fltk_images
+	@echo ... fltk_jpeg
+	@echo ... fltk_png
+	@echo ... fltk_z
+	@echo ... fluid
+	@echo ... fluid-cmd
+	@echo ... fluid-lib
 	@echo ... Graph.obj
 	@echo ... Graph.i
 	@echo ... Graph.s
