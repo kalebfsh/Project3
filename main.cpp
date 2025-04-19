@@ -11,7 +11,7 @@ using namespace std;
 
 int main() {
     Fl_Window win(300,300,"FL");
-    win.show
+    win.show();
     string genre;
     cout << "Enter a genre: ";
     getline(cin, genre);
