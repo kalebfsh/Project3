@@ -30,17 +30,33 @@ float Graph::EuclideanDistance(const vector<float>& a, const vector<float>& b) c
     return sqrt(sum);
 }
 
+const vector<vector<float>>& Graph::GetAdjacencyMatrix(const string& genre) const {
+    return adjacencyMatrices.at(genre);
+}
+
+const vector<Song>& Graph::GetSongsByGenre(const string& genre) const {
+    return genreMap.at(genre);
+}
+
+vector<string> Graph::GetAllGenres() const {
+    vector<string> genres;
+    for (const auto& [key, _] : genreMap) {
+        genres.push_back(key);
+    }
+    return genres;
+}
+
 void Graph::LoadFromCSV(ifstream& file) {
     string temp;
-    getline(file, temp); // Skip header
+    getline(file, temp);
 
     while (file.is_open() && file.peek() != EOF) {
         Song song;
-        getline(file, temp, ','); // skip first field
+        getline(file, temp, ',');
 
         bool inQuotes = false;
         string line;
-        getline(file, line); // rest of row
+        getline(file, line);
 
         string current;
         vector<string> result;
@@ -105,18 +121,88 @@ void Graph::LoadFromCSV(ifstream& file) {
     }
 }
 
-const vector<vector<float>>& Graph::GetAdjacencyMatrix(const string& genre) const {
-    return adjacencyMatrices.at(genre);
-}
+void Graph::LoadGenreFromCSV(std::ifstream& file, const std::string& target_genre) {
+    const std::string target = target_genre;
 
-const vector<Song>& Graph::GetSongsByGenre(const string& genre) const {
-    return genreMap.at(genre);
-}
+    std::string headerLine;
+    std::getline(file, headerLine);
 
-vector<string> Graph::GetAllGenres() const {
-    vector<string> genres;
-    for (const auto& [key, _] : genreMap) {
-        genres.push_back(key);
+    std::string line;
+    while (std::getline(file, line)) {
+        size_t firstComma = line.find(',');
+        if (firstComma == std::string::npos) continue;
+        std::string rest = line.substr(firstComma + 1);
+
+        std::vector<std::string> fields;
+        std::string current;
+        bool inQuotes = false;
+        for (size_t i = 0; i < rest.size(); ++i) {
+            char c = rest[i];
+            if (c == '"') {
+                if (inQuotes && i + 1 < rest.size() && rest[i + 1] == '"') {
+                    current += '"';
+                    ++i;
+                } else {
+                    inQuotes = !inQuotes;
+                }
+            } else if (c == ',' && !inQuotes) {
+                fields.push_back(current);
+                current.clear();
+            } else {
+                current += c;
+            }
+        }
+        fields.push_back(current);
+
+        if (fields.size() < 20) continue;
+
+        std::string genre = fields[19];
+        std::transform(genre.begin(), genre.end(), genre.begin(), ::tolower);
+
+        if (genre != target) continue;
+
+        Song song;
+        song.track_id      = fields[0];
+        song.artists       = fields[1];
+        song.album         = fields[2];
+        song.track_name    = fields[3];
+        song.popularity    = std::stoi(fields[4]);
+        song.track_length  = std::stoi(fields[5]);
+        {
+            std::string potty = fields[6];
+            std::transform(potty.begin(), potty.end(), potty.begin(), ::tolower);
+            std::istringstream(potty) >> std::boolalpha >> song.potty_words;
+        }
+        song.danceability     = std::stof(fields[7]);
+        song.energy           = std::stof(fields[8]);
+        song.key              = std::stoi(fields[9]);
+        song.loudness         = std::stof(fields[10]);
+        song.mode             = std::stoi(fields[11]);
+        song.speechiness      = std::stof(fields[12]);
+        song.acousticness     = std::stof(fields[13]);
+        song.instrumentalness = std::stod(fields[14]);
+        song.liveness         = std::stof(fields[15]);
+        song.valence          = std::stof(fields[16]);
+        song.tempo            = std::stof(fields[17]);
+        song.time_signature   = std::stoi(fields[18]);
+        song.genre            = genre;
+
+        genreMap[target].push_back(song);
     }
-    return genres;
+
+    auto& songs = genreMap[target];
+    size_t n = songs.size();
+
+    std::vector<std::vector<float>> matrix(n, std::vector<float>(n, 0.0f));
+    for (size_t i = 0; i < n; ++i) {
+        for (size_t j = 0; j < n; ++j) {
+            if (i == j) {
+                matrix[i][j] = 1e9f;
+            } else {
+                matrix[i][j] = EuclideanDistance(GetFeatureVector(songs[i]), GetFeatureVector(songs[j]));
+            }
+        }
+    }
+
+    adjacencyMatrices[target] = std::move(matrix);
 }

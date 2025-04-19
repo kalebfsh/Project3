@@ -28,6 +28,7 @@ private:
 
 public:
     void LoadFromCSV(ifstream& file);
+    void LoadGenreFromCSV(std::ifstream& file, const std::string& target_genre);
     const vector<vector<float>>& GetAdjacencyMatrix(const string& genre) const;
     const vector<Song>& GetSongsByGenre(const string& genre) const;
     vector<string> GetAllGenres() const;
