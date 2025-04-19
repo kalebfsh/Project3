@@ -236,4 +236,9 @@ CMakeFiles/Project3.dir/main.cpp.obj: \
  C:/Users/Hayes/CLionProjects/Project3/cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/FL/Fl.H \
  C:/Users/Hayes/CLionProjects/Project3/cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/FL/Fl_Bitmap.H \
  C:/Users/Hayes/CLionProjects/Project3/cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/FL/Fl_Image.H \
- C:/Users/Hayes/CLionProjects/Project3/cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/FL/Enumerations.H
+ C:/Users/Hayes/CLionProjects/Project3/cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/FL/Enumerations.H \
+ C:\Users\Hayes\CLionProjects\Project3\FL/Fl.H \
+ C:\Users\Hayes\CLionProjects\Project3\FL/Fl_Input.H \
+ C:\Users\Hayes\CLionProjects\Project3\FL/Fl_Input_.H \
+ C:\Users\Hayes\CLionProjects\Project3\FL/Fl_Output.H \
+ C:\Users\Hayes\CLionProjects\Project3\FL/Fl_Input.H
