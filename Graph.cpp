@@ -122,8 +122,6 @@ void Graph::LoadFromCSV(ifstream& file) {
 }
 
 void Graph::LoadGenreFromCSV(std::ifstream& file, const std::string& target_genre) {
-    const std::string target = target_genre;
-
     std::string headerLine;
     std::getline(file, headerLine);
 
@@ -159,7 +157,7 @@ void Graph::LoadGenreFromCSV(std::ifstream& file, const std::string& target_genr
         std::string genre = fields[19];
         std::transform(genre.begin(), genre.end(), genre.begin(), ::tolower);
 
-        if (genre != target) continue;
+        if (genre != target_genre) continue;
 
         Song song;
         song.track_id      = fields[0];
@@ -187,10 +185,10 @@ void Graph::LoadGenreFromCSV(std::ifstream& file, const std::string& target_genr
         song.time_signature   = std::stoi(fields[18]);
         song.genre            = genre;
 
-        genreMap[target].push_back(song);
+        genreMap[target_genre].push_back(song);
     }
 
-    auto& songs = genreMap[target];
+    auto& songs = genreMap[target_genre];
     size_t n = songs.size();
 
     std::vector<std::vector<float>> matrix(n, std::vector<float>(n, 0.0f));
@@ -204,5 +202,5 @@ void Graph::LoadGenreFromCSV(std::ifstream& file, const std::string& target_genr
         }
     }
 
-    adjacencyMatrices[target] = std::move(matrix);
+    adjacencyMatrices[target_genre] = std::move(matrix);
 }
