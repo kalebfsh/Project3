@@ -7,6 +7,7 @@
 #include <iostream>
 #include <algorithm>
 #include <cmath>
+#include <fstream>
 
 vector<float> Graph::GetFeatureVector(const Song& song) const {
     return {
