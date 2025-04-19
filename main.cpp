@@ -1,6 +1,7 @@
 #include <iostream>
 #include <fstream>
 #include "Graph.h"
+#include <algorithm>
 
 int main() {
     ifstream file("dataset.csv");
