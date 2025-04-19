@@ -4,10 +4,14 @@
 #include <random>
 #include <set>
 #include "Graph.h"
+#include "FL/Fl.h"
+#include "FL/Fl_Window.H"
 
 using namespace std;
 
 int main() {
+    Fl_Window win(300,300,"FL");
+    win.show
     string genre;
     cout << "Enter a genre: ";
     getline(cin, genre);
