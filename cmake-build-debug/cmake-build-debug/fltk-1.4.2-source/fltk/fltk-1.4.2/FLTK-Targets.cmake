@@ -54,7 +54,7 @@ add_library(fltk::png STATIC IMPORTED)
 
 set_target_properties(fltk::png PROPERTIES
   INTERFACE_COMPILE_DEFINITIONS "HAVE_PNG_H=1;HAVE_PNG_GET_VALID=1;HAVE_PNG_SET_TRNS_TO_ALPHA=1"
-  INTERFACE_INCLUDE_DIRECTORIES "C:/Users/Hayes/CLionProjects/Project3/cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/png"
+  INTERFACE_INCLUDE_DIRECTORIES "C:/Users/kaleb_/OneDrive/Documents/Project3/cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/png"
   INTERFACE_LINK_LIBRARIES "fltk::z"
 )
 
@@ -62,15 +62,15 @@ set_target_properties(fltk::png PROPERTIES
 add_library(fltk::jpeg STATIC IMPORTED)
 
 set_target_properties(fltk::jpeg PROPERTIES
-  INTERFACE_INCLUDE_DIRECTORIES "C:/Users/Hayes/CLionProjects/Project3/cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg"
+  INTERFACE_INCLUDE_DIRECTORIES "C:/Users/kaleb_/OneDrive/Documents/Project3/cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg"
 )
 
 # Create imported target fltk::fltk
 add_library(fltk::fltk STATIC IMPORTED)
 
 set_target_properties(fltk::fltk PROPERTIES
-  INTERFACE_INCLUDE_DIRECTORIES "C:/Users/Hayes/CLionProjects/Project3/cmake-build-debug/cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/src/..;C:/Users/Hayes/CLionProjects/Project3/cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/src/.."
-  INTERFACE_LINK_DIRECTORIES "C:/Users/Hayes/CLionProjects/Project3/cmake-build-debug/cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/src/../lib"
+  INTERFACE_INCLUDE_DIRECTORIES "C:/Users/kaleb_/OneDrive/Documents/Project3/cmake-build-debug/cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/src/..;C:/Users/kaleb_/OneDrive/Documents/Project3/cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/src/.."
+  INTERFACE_LINK_DIRECTORIES "C:/Users/kaleb_/OneDrive/Documents/Project3/cmake-build-debug/cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/src/../lib"
   INTERFACE_LINK_LIBRARIES "comctl32;ws2_32;gdiplus"
 )
 
@@ -112,73 +112,73 @@ add_executable(fltk::options-cmd IMPORTED)
 set_property(TARGET fltk::z APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(fltk::z PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_DEBUG "C"
-  IMPORTED_LOCATION_DEBUG "C:/Users/Hayes/CLionProjects/Project3/cmake-build-debug/cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/lib/libfltk_z.a"
+  IMPORTED_LOCATION_DEBUG "C:/Users/kaleb_/OneDrive/Documents/Project3/cmake-build-debug/cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/lib/libfltk_z.a"
   )
 
 # Import target "fltk::png" for configuration "Debug"
 set_property(TARGET fltk::png APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(fltk::png PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_DEBUG "C"
-  IMPORTED_LOCATION_DEBUG "C:/Users/Hayes/CLionProjects/Project3/cmake-build-debug/cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/lib/libfltk_png.a"
+  IMPORTED_LOCATION_DEBUG "C:/Users/kaleb_/OneDrive/Documents/Project3/cmake-build-debug/cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/lib/libfltk_png.a"
   )
 
 # Import target "fltk::jpeg" for configuration "Debug"
 set_property(TARGET fltk::jpeg APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(fltk::jpeg PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_DEBUG "C"
-  IMPORTED_LOCATION_DEBUG "C:/Users/Hayes/CLionProjects/Project3/cmake-build-debug/cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/lib/libfltk_jpeg.a"
+  IMPORTED_LOCATION_DEBUG "C:/Users/kaleb_/OneDrive/Documents/Project3/cmake-build-debug/cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/lib/libfltk_jpeg.a"
   )
 
 # Import target "fltk::fltk" for configuration "Debug"
 set_property(TARGET fltk::fltk APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(fltk::fltk PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_DEBUG "C;CXX"
-  IMPORTED_LOCATION_DEBUG "C:/Users/Hayes/CLionProjects/Project3/cmake-build-debug/cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/lib/libfltk.a"
+  IMPORTED_LOCATION_DEBUG "C:/Users/kaleb_/OneDrive/Documents/Project3/cmake-build-debug/cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/lib/libfltk.a"
   )
 
 # Import target "fltk::forms" for configuration "Debug"
 set_property(TARGET fltk::forms APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(fltk::forms PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_DEBUG "CXX"
-  IMPORTED_LOCATION_DEBUG "C:/Users/Hayes/CLionProjects/Project3/cmake-build-debug/cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/lib/libfltk_forms.a"
+  IMPORTED_LOCATION_DEBUG "C:/Users/kaleb_/OneDrive/Documents/Project3/cmake-build-debug/cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/lib/libfltk_forms.a"
   )
 
 # Import target "fltk::images" for configuration "Debug"
 set_property(TARGET fltk::images APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(fltk::images PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_DEBUG "CXX"
-  IMPORTED_LOCATION_DEBUG "C:/Users/Hayes/CLionProjects/Project3/cmake-build-debug/cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/lib/libfltk_images.a"
+  IMPORTED_LOCATION_DEBUG "C:/Users/kaleb_/OneDrive/Documents/Project3/cmake-build-debug/cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/lib/libfltk_images.a"
   )
 
 # Import target "fltk::gl" for configuration "Debug"
 set_property(TARGET fltk::gl APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(fltk::gl PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_DEBUG "CXX"
-  IMPORTED_LOCATION_DEBUG "C:/Users/Hayes/CLionProjects/Project3/cmake-build-debug/cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/lib/libfltk_gl.a"
+  IMPORTED_LOCATION_DEBUG "C:/Users/kaleb_/OneDrive/Documents/Project3/cmake-build-debug/cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/lib/libfltk_gl.a"
   )
 
 # Import target "fltk::fluid" for configuration "Debug"
 set_property(TARGET fltk::fluid APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(fltk::fluid PROPERTIES
-  IMPORTED_LOCATION_DEBUG "C:/Users/Hayes/CLionProjects/Project3/cmake-build-debug/cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/bin/fluid.exe"
+  IMPORTED_LOCATION_DEBUG "C:/Users/kaleb_/OneDrive/Documents/Project3/cmake-build-debug/cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/bin/fluid.exe"
   )
 
 # Import target "fltk::fluid-cmd" for configuration "Debug"
 set_property(TARGET fltk::fluid-cmd APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(fltk::fluid-cmd PROPERTIES
-  IMPORTED_LOCATION_DEBUG "C:/Users/Hayes/CLionProjects/Project3/cmake-build-debug/cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/bin/fluid-cmd.exe"
+  IMPORTED_LOCATION_DEBUG "C:/Users/kaleb_/OneDrive/Documents/Project3/cmake-build-debug/cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/bin/fluid-cmd.exe"
   )
 
 # Import target "fltk::options" for configuration "Debug"
 set_property(TARGET fltk::options APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(fltk::options PROPERTIES
-  IMPORTED_LOCATION_DEBUG "C:/Users/Hayes/CLionProjects/Project3/cmake-build-debug/cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/bin/fltk-options.exe"
+  IMPORTED_LOCATION_DEBUG "C:/Users/kaleb_/OneDrive/Documents/Project3/cmake-build-debug/cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/bin/fltk-options.exe"
   )
 
 # Import target "fltk::options-cmd" for configuration "Debug"
 set_property(TARGET fltk::options-cmd APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(fltk::options-cmd PROPERTIES
-  IMPORTED_LOCATION_DEBUG "C:/Users/Hayes/CLionProjects/Project3/cmake-build-debug/cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/bin/fltk-options-cmd.exe"
+  IMPORTED_LOCATION_DEBUG "C:/Users/kaleb_/OneDrive/Documents/Project3/cmake-build-debug/cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/bin/fltk-options-cmd.exe"
   )
 
 # This file does not depend on other imported targets which have

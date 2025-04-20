@@ -52,10 +52,10 @@ RM = "C:\Program Files\JetBrains\CLion 2024.2.0.1\bin\cmake\win\x64\bin\cmake.ex
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Hayes\CLionProjects\Project3
+CMAKE_SOURCE_DIR = C:\Users\kaleb_\OneDrive\Documents\Project3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fltk-options/CMakeFiles/fltk-options.dir/depend.make
@@ -72,16 +72,16 @@ cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fltk-options/CMakeFiles/fltk
 cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fltk-options/CMakeFiles/fltk-options.dir/fltk-options.cxx.obj: cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fltk-options/CMakeFiles/fltk-options.dir/includes_CXX.rsp
 cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fltk-options/CMakeFiles/fltk-options.dir/fltk-options.cxx.obj: fltk-1.4.2-source/fltk/fltk-1.4.2/fltk-options/fltk-options.cxx
 cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fltk-options/CMakeFiles/fltk-options.dir/fltk-options.cxx.obj: cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fltk-options/CMakeFiles/fltk-options.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fltk-options/CMakeFiles/fltk-options.dir/fltk-options.cxx.obj"
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug\cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\fltk-options && C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fltk-options/CMakeFiles/fltk-options.dir/fltk-options.cxx.obj -MF CMakeFiles\fltk-options.dir\fltk-options.cxx.obj.d -o CMakeFiles\fltk-options.dir\fltk-options.cxx.obj -c C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\fltk-options\fltk-options.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fltk-options/CMakeFiles/fltk-options.dir/fltk-options.cxx.obj"
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug\cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\fltk-options && C:\Users\kaleb_\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fltk-options/CMakeFiles/fltk-options.dir/fltk-options.cxx.obj -MF CMakeFiles\fltk-options.dir\fltk-options.cxx.obj.d -o CMakeFiles\fltk-options.dir\fltk-options.cxx.obj -c C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\fltk-options\fltk-options.cxx
 
 cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fltk-options/CMakeFiles/fltk-options.dir/fltk-options.cxx.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fltk-options.dir/fltk-options.cxx.i"
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug\cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\fltk-options && C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\fltk-options\fltk-options.cxx > CMakeFiles\fltk-options.dir\fltk-options.cxx.i
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug\cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\fltk-options && C:\Users\kaleb_\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\fltk-options\fltk-options.cxx > CMakeFiles\fltk-options.dir\fltk-options.cxx.i
 
 cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fltk-options/CMakeFiles/fltk-options.dir/fltk-options.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fltk-options.dir/fltk-options.cxx.s"
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug\cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\fltk-options && C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\fltk-options\fltk-options.cxx -o CMakeFiles\fltk-options.dir\fltk-options.cxx.s
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug\cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\fltk-options && C:\Users\kaleb_\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\fltk-options\fltk-options.cxx -o CMakeFiles\fltk-options.dir\fltk-options.cxx.s
 
 # Object files for target fltk-options
 fltk__options_OBJECTS = \
@@ -96,18 +96,18 @@ cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/bin/fltk-options.exe: cmake-
 cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/bin/fltk-options.exe: cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fltk-options/CMakeFiles/fltk-options.dir/linkLibs.rsp
 cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/bin/fltk-options.exe: cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fltk-options/CMakeFiles/fltk-options.dir/objects1.rsp
 cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/bin/fltk-options.exe: cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fltk-options/CMakeFiles/fltk-options.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ..\bin\fltk-options.exe"
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug\cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\fltk-options && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\fltk-options.dir\link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ..\bin\fltk-options.exe"
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug\cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\fltk-options && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\fltk-options.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fltk-options/CMakeFiles/fltk-options.dir/build: cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/bin/fltk-options.exe
 .PHONY : cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fltk-options/CMakeFiles/fltk-options.dir/build
 
 cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fltk-options/CMakeFiles/fltk-options.dir/clean:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug\cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\fltk-options && $(CMAKE_COMMAND) -P CMakeFiles\fltk-options.dir\cmake_clean.cmake
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug\cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\fltk-options && $(CMAKE_COMMAND) -P CMakeFiles\fltk-options.dir\cmake_clean.cmake
 .PHONY : cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fltk-options/CMakeFiles/fltk-options.dir/clean
 
 cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fltk-options/CMakeFiles/fltk-options.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Hayes\CLionProjects\Project3 C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\fltk-options C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug\cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\fltk-options C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug\cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\fltk-options\CMakeFiles\fltk-options.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\kaleb_\OneDrive\Documents\Project3 C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\fltk-options C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug\cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\fltk-options C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug\cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\fltk-options\CMakeFiles\fltk-options.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fltk-options/CMakeFiles/fltk-options.dir/depend
 

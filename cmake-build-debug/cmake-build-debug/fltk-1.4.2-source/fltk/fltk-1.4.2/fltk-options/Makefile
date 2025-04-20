@@ -56,10 +56,10 @@ RM = "C:\Program Files\JetBrains\CLion 2024.2.0.1\bin\cmake\win\x64\bin\cmake.ex
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Hayes\CLionProjects\Project3
+CMAKE_SOURCE_DIR = C:\Users\kaleb_\OneDrive\Documents\Project3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -131,14 +131,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug\CMakeFiles C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug\cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\fltk-options\\CMakeFiles\progress.marks
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fltk-options/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug\CMakeFiles 0
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug\CMakeFiles C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug\cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\fltk-options\\CMakeFiles\progress.marks
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fltk-options/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fltk-options/clean
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fltk-options/clean
 .PHONY : clean
 
 # The main clean target
@@ -147,22 +147,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fltk-options/preinstall
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fltk-options/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fltk-options/preinstall
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fltk-options/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fltk-options/CMakeFiles/fltk-options.dir/rule:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fltk-options/CMakeFiles/fltk-options.dir/rule
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fltk-options/CMakeFiles/fltk-options.dir/rule
 .PHONY : cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fltk-options/CMakeFiles/fltk-options.dir/rule
 
 # Convenience name for target.
@@ -171,12 +171,12 @@ fltk-options: cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fltk-options/C
 
 # fast build rule for target.
 fltk-options/fast:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\fltk-options\CMakeFiles\fltk-options.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fltk-options/CMakeFiles/fltk-options.dir/build
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\fltk-options\CMakeFiles\fltk-options.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fltk-options/CMakeFiles/fltk-options.dir/build
 .PHONY : fltk-options/fast
 
 # Convenience name for target.
 cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fltk-options/CMakeFiles/fltk-options-cmd.dir/rule:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fltk-options/CMakeFiles/fltk-options-cmd.dir/rule
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fltk-options/CMakeFiles/fltk-options-cmd.dir/rule
 .PHONY : cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fltk-options/CMakeFiles/fltk-options-cmd.dir/rule
 
 # Convenience name for target.
@@ -185,7 +185,7 @@ fltk-options-cmd: cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fltk-optio
 
 # fast build rule for target.
 fltk-options-cmd/fast:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\fltk-options\CMakeFiles\fltk-options-cmd.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fltk-options/CMakeFiles/fltk-options-cmd.dir/build
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\fltk-options\CMakeFiles\fltk-options-cmd.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fltk-options/CMakeFiles/fltk-options-cmd.dir/build
 .PHONY : fltk-options-cmd/fast
 
 fltk-options.obj: fltk-options.cxx.obj
@@ -193,8 +193,8 @@ fltk-options.obj: fltk-options.cxx.obj
 
 # target to build an object file
 fltk-options.cxx.obj:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\fltk-options\CMakeFiles\fltk-options.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fltk-options/CMakeFiles/fltk-options.dir/fltk-options.cxx.obj
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\fltk-options\CMakeFiles\fltk-options-cmd.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fltk-options/CMakeFiles/fltk-options-cmd.dir/fltk-options.cxx.obj
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\fltk-options\CMakeFiles\fltk-options.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fltk-options/CMakeFiles/fltk-options.dir/fltk-options.cxx.obj
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\fltk-options\CMakeFiles\fltk-options-cmd.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fltk-options/CMakeFiles/fltk-options-cmd.dir/fltk-options.cxx.obj
 .PHONY : fltk-options.cxx.obj
 
 fltk-options.i: fltk-options.cxx.i
@@ -202,8 +202,8 @@ fltk-options.i: fltk-options.cxx.i
 
 # target to preprocess a source file
 fltk-options.cxx.i:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\fltk-options\CMakeFiles\fltk-options.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fltk-options/CMakeFiles/fltk-options.dir/fltk-options.cxx.i
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\fltk-options\CMakeFiles\fltk-options-cmd.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fltk-options/CMakeFiles/fltk-options-cmd.dir/fltk-options.cxx.i
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\fltk-options\CMakeFiles\fltk-options.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fltk-options/CMakeFiles/fltk-options.dir/fltk-options.cxx.i
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\fltk-options\CMakeFiles\fltk-options-cmd.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fltk-options/CMakeFiles/fltk-options-cmd.dir/fltk-options.cxx.i
 .PHONY : fltk-options.cxx.i
 
 fltk-options.s: fltk-options.cxx.s
@@ -211,8 +211,8 @@ fltk-options.s: fltk-options.cxx.s
 
 # target to generate assembly for a file
 fltk-options.cxx.s:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\fltk-options\CMakeFiles\fltk-options.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fltk-options/CMakeFiles/fltk-options.dir/fltk-options.cxx.s
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\fltk-options\CMakeFiles\fltk-options-cmd.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fltk-options/CMakeFiles/fltk-options-cmd.dir/fltk-options.cxx.s
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\fltk-options\CMakeFiles\fltk-options.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fltk-options/CMakeFiles/fltk-options.dir/fltk-options.cxx.s
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\fltk-options\CMakeFiles\fltk-options-cmd.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fltk-options/CMakeFiles/fltk-options-cmd.dir/fltk-options.cxx.s
 .PHONY : fltk-options.cxx.s
 
 # Help Target
@@ -243,6 +243,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

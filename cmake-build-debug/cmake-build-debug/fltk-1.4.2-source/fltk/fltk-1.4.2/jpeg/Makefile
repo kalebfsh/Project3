@@ -56,10 +56,10 @@ RM = "C:\Program Files\JetBrains\CLion 2024.2.0.1\bin\cmake\win\x64\bin\cmake.ex
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Hayes\CLionProjects\Project3
+CMAKE_SOURCE_DIR = C:\Users\kaleb_\OneDrive\Documents\Project3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -131,14 +131,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug\CMakeFiles C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug\cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\\CMakeFiles\progress.marks
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug\CMakeFiles 0
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug\CMakeFiles C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug\cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\\CMakeFiles\progress.marks
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/clean
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/clean
 .PHONY : clean
 
 # The main clean target
@@ -147,22 +147,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/preinstall
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/preinstall
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/rule:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/rule
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/rule
 .PHONY : cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/rule
 
 # Convenience name for target.
@@ -171,7 +171,7 @@ fltk_jpeg: cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/f
 
 # fast build rule for target.
 fltk_jpeg/fast:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/build
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/build
 .PHONY : fltk_jpeg/fast
 
 jaricom.obj: jaricom.c.obj
@@ -179,7 +179,7 @@ jaricom.obj: jaricom.c.obj
 
 # target to build an object file
 jaricom.c.obj:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jaricom.c.obj
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jaricom.c.obj
 .PHONY : jaricom.c.obj
 
 jaricom.i: jaricom.c.i
@@ -187,7 +187,7 @@ jaricom.i: jaricom.c.i
 
 # target to preprocess a source file
 jaricom.c.i:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jaricom.c.i
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jaricom.c.i
 .PHONY : jaricom.c.i
 
 jaricom.s: jaricom.c.s
@@ -195,7 +195,7 @@ jaricom.s: jaricom.c.s
 
 # target to generate assembly for a file
 jaricom.c.s:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jaricom.c.s
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jaricom.c.s
 .PHONY : jaricom.c.s
 
 jcapimin.obj: jcapimin.c.obj
@@ -203,7 +203,7 @@ jcapimin.obj: jcapimin.c.obj
 
 # target to build an object file
 jcapimin.c.obj:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jcapimin.c.obj
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jcapimin.c.obj
 .PHONY : jcapimin.c.obj
 
 jcapimin.i: jcapimin.c.i
@@ -211,7 +211,7 @@ jcapimin.i: jcapimin.c.i
 
 # target to preprocess a source file
 jcapimin.c.i:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jcapimin.c.i
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jcapimin.c.i
 .PHONY : jcapimin.c.i
 
 jcapimin.s: jcapimin.c.s
@@ -219,7 +219,7 @@ jcapimin.s: jcapimin.c.s
 
 # target to generate assembly for a file
 jcapimin.c.s:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jcapimin.c.s
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jcapimin.c.s
 .PHONY : jcapimin.c.s
 
 jcapistd.obj: jcapistd.c.obj
@@ -227,7 +227,7 @@ jcapistd.obj: jcapistd.c.obj
 
 # target to build an object file
 jcapistd.c.obj:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jcapistd.c.obj
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jcapistd.c.obj
 .PHONY : jcapistd.c.obj
 
 jcapistd.i: jcapistd.c.i
@@ -235,7 +235,7 @@ jcapistd.i: jcapistd.c.i
 
 # target to preprocess a source file
 jcapistd.c.i:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jcapistd.c.i
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jcapistd.c.i
 .PHONY : jcapistd.c.i
 
 jcapistd.s: jcapistd.c.s
@@ -243,7 +243,7 @@ jcapistd.s: jcapistd.c.s
 
 # target to generate assembly for a file
 jcapistd.c.s:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jcapistd.c.s
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jcapistd.c.s
 .PHONY : jcapistd.c.s
 
 jcarith.obj: jcarith.c.obj
@@ -251,7 +251,7 @@ jcarith.obj: jcarith.c.obj
 
 # target to build an object file
 jcarith.c.obj:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jcarith.c.obj
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jcarith.c.obj
 .PHONY : jcarith.c.obj
 
 jcarith.i: jcarith.c.i
@@ -259,7 +259,7 @@ jcarith.i: jcarith.c.i
 
 # target to preprocess a source file
 jcarith.c.i:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jcarith.c.i
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jcarith.c.i
 .PHONY : jcarith.c.i
 
 jcarith.s: jcarith.c.s
@@ -267,7 +267,7 @@ jcarith.s: jcarith.c.s
 
 # target to generate assembly for a file
 jcarith.c.s:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jcarith.c.s
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jcarith.c.s
 .PHONY : jcarith.c.s
 
 jccoefct.obj: jccoefct.c.obj
@@ -275,7 +275,7 @@ jccoefct.obj: jccoefct.c.obj
 
 # target to build an object file
 jccoefct.c.obj:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jccoefct.c.obj
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jccoefct.c.obj
 .PHONY : jccoefct.c.obj
 
 jccoefct.i: jccoefct.c.i
@@ -283,7 +283,7 @@ jccoefct.i: jccoefct.c.i
 
 # target to preprocess a source file
 jccoefct.c.i:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jccoefct.c.i
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jccoefct.c.i
 .PHONY : jccoefct.c.i
 
 jccoefct.s: jccoefct.c.s
@@ -291,7 +291,7 @@ jccoefct.s: jccoefct.c.s
 
 # target to generate assembly for a file
 jccoefct.c.s:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jccoefct.c.s
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jccoefct.c.s
 .PHONY : jccoefct.c.s
 
 jccolor.obj: jccolor.c.obj
@@ -299,7 +299,7 @@ jccolor.obj: jccolor.c.obj
 
 # target to build an object file
 jccolor.c.obj:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jccolor.c.obj
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jccolor.c.obj
 .PHONY : jccolor.c.obj
 
 jccolor.i: jccolor.c.i
@@ -307,7 +307,7 @@ jccolor.i: jccolor.c.i
 
 # target to preprocess a source file
 jccolor.c.i:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jccolor.c.i
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jccolor.c.i
 .PHONY : jccolor.c.i
 
 jccolor.s: jccolor.c.s
@@ -315,7 +315,7 @@ jccolor.s: jccolor.c.s
 
 # target to generate assembly for a file
 jccolor.c.s:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jccolor.c.s
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jccolor.c.s
 .PHONY : jccolor.c.s
 
 jcdctmgr.obj: jcdctmgr.c.obj
@@ -323,7 +323,7 @@ jcdctmgr.obj: jcdctmgr.c.obj
 
 # target to build an object file
 jcdctmgr.c.obj:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jcdctmgr.c.obj
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jcdctmgr.c.obj
 .PHONY : jcdctmgr.c.obj
 
 jcdctmgr.i: jcdctmgr.c.i
@@ -331,7 +331,7 @@ jcdctmgr.i: jcdctmgr.c.i
 
 # target to preprocess a source file
 jcdctmgr.c.i:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jcdctmgr.c.i
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jcdctmgr.c.i
 .PHONY : jcdctmgr.c.i
 
 jcdctmgr.s: jcdctmgr.c.s
@@ -339,7 +339,7 @@ jcdctmgr.s: jcdctmgr.c.s
 
 # target to generate assembly for a file
 jcdctmgr.c.s:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jcdctmgr.c.s
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jcdctmgr.c.s
 .PHONY : jcdctmgr.c.s
 
 jchuff.obj: jchuff.c.obj
@@ -347,7 +347,7 @@ jchuff.obj: jchuff.c.obj
 
 # target to build an object file
 jchuff.c.obj:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jchuff.c.obj
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jchuff.c.obj
 .PHONY : jchuff.c.obj
 
 jchuff.i: jchuff.c.i
@@ -355,7 +355,7 @@ jchuff.i: jchuff.c.i
 
 # target to preprocess a source file
 jchuff.c.i:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jchuff.c.i
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jchuff.c.i
 .PHONY : jchuff.c.i
 
 jchuff.s: jchuff.c.s
@@ -363,7 +363,7 @@ jchuff.s: jchuff.c.s
 
 # target to generate assembly for a file
 jchuff.c.s:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jchuff.c.s
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jchuff.c.s
 .PHONY : jchuff.c.s
 
 jcinit.obj: jcinit.c.obj
@@ -371,7 +371,7 @@ jcinit.obj: jcinit.c.obj
 
 # target to build an object file
 jcinit.c.obj:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jcinit.c.obj
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jcinit.c.obj
 .PHONY : jcinit.c.obj
 
 jcinit.i: jcinit.c.i
@@ -379,7 +379,7 @@ jcinit.i: jcinit.c.i
 
 # target to preprocess a source file
 jcinit.c.i:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jcinit.c.i
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jcinit.c.i
 .PHONY : jcinit.c.i
 
 jcinit.s: jcinit.c.s
@@ -387,7 +387,7 @@ jcinit.s: jcinit.c.s
 
 # target to generate assembly for a file
 jcinit.c.s:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jcinit.c.s
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jcinit.c.s
 .PHONY : jcinit.c.s
 
 jcmainct.obj: jcmainct.c.obj
@@ -395,7 +395,7 @@ jcmainct.obj: jcmainct.c.obj
 
 # target to build an object file
 jcmainct.c.obj:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jcmainct.c.obj
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jcmainct.c.obj
 .PHONY : jcmainct.c.obj
 
 jcmainct.i: jcmainct.c.i
@@ -403,7 +403,7 @@ jcmainct.i: jcmainct.c.i
 
 # target to preprocess a source file
 jcmainct.c.i:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jcmainct.c.i
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jcmainct.c.i
 .PHONY : jcmainct.c.i
 
 jcmainct.s: jcmainct.c.s
@@ -411,7 +411,7 @@ jcmainct.s: jcmainct.c.s
 
 # target to generate assembly for a file
 jcmainct.c.s:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jcmainct.c.s
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jcmainct.c.s
 .PHONY : jcmainct.c.s
 
 jcmarker.obj: jcmarker.c.obj
@@ -419,7 +419,7 @@ jcmarker.obj: jcmarker.c.obj
 
 # target to build an object file
 jcmarker.c.obj:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jcmarker.c.obj
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jcmarker.c.obj
 .PHONY : jcmarker.c.obj
 
 jcmarker.i: jcmarker.c.i
@@ -427,7 +427,7 @@ jcmarker.i: jcmarker.c.i
 
 # target to preprocess a source file
 jcmarker.c.i:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jcmarker.c.i
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jcmarker.c.i
 .PHONY : jcmarker.c.i
 
 jcmarker.s: jcmarker.c.s
@@ -435,7 +435,7 @@ jcmarker.s: jcmarker.c.s
 
 # target to generate assembly for a file
 jcmarker.c.s:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jcmarker.c.s
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jcmarker.c.s
 .PHONY : jcmarker.c.s
 
 jcmaster.obj: jcmaster.c.obj
@@ -443,7 +443,7 @@ jcmaster.obj: jcmaster.c.obj
 
 # target to build an object file
 jcmaster.c.obj:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jcmaster.c.obj
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jcmaster.c.obj
 .PHONY : jcmaster.c.obj
 
 jcmaster.i: jcmaster.c.i
@@ -451,7 +451,7 @@ jcmaster.i: jcmaster.c.i
 
 # target to preprocess a source file
 jcmaster.c.i:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jcmaster.c.i
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jcmaster.c.i
 .PHONY : jcmaster.c.i
 
 jcmaster.s: jcmaster.c.s
@@ -459,7 +459,7 @@ jcmaster.s: jcmaster.c.s
 
 # target to generate assembly for a file
 jcmaster.c.s:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jcmaster.c.s
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jcmaster.c.s
 .PHONY : jcmaster.c.s
 
 jcomapi.obj: jcomapi.c.obj
@@ -467,7 +467,7 @@ jcomapi.obj: jcomapi.c.obj
 
 # target to build an object file
 jcomapi.c.obj:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jcomapi.c.obj
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jcomapi.c.obj
 .PHONY : jcomapi.c.obj
 
 jcomapi.i: jcomapi.c.i
@@ -475,7 +475,7 @@ jcomapi.i: jcomapi.c.i
 
 # target to preprocess a source file
 jcomapi.c.i:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jcomapi.c.i
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jcomapi.c.i
 .PHONY : jcomapi.c.i
 
 jcomapi.s: jcomapi.c.s
@@ -483,7 +483,7 @@ jcomapi.s: jcomapi.c.s
 
 # target to generate assembly for a file
 jcomapi.c.s:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jcomapi.c.s
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jcomapi.c.s
 .PHONY : jcomapi.c.s
 
 jcparam.obj: jcparam.c.obj
@@ -491,7 +491,7 @@ jcparam.obj: jcparam.c.obj
 
 # target to build an object file
 jcparam.c.obj:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jcparam.c.obj
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jcparam.c.obj
 .PHONY : jcparam.c.obj
 
 jcparam.i: jcparam.c.i
@@ -499,7 +499,7 @@ jcparam.i: jcparam.c.i
 
 # target to preprocess a source file
 jcparam.c.i:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jcparam.c.i
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jcparam.c.i
 .PHONY : jcparam.c.i
 
 jcparam.s: jcparam.c.s
@@ -507,7 +507,7 @@ jcparam.s: jcparam.c.s
 
 # target to generate assembly for a file
 jcparam.c.s:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jcparam.c.s
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jcparam.c.s
 .PHONY : jcparam.c.s
 
 jcprepct.obj: jcprepct.c.obj
@@ -515,7 +515,7 @@ jcprepct.obj: jcprepct.c.obj
 
 # target to build an object file
 jcprepct.c.obj:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jcprepct.c.obj
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jcprepct.c.obj
 .PHONY : jcprepct.c.obj
 
 jcprepct.i: jcprepct.c.i
@@ -523,7 +523,7 @@ jcprepct.i: jcprepct.c.i
 
 # target to preprocess a source file
 jcprepct.c.i:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jcprepct.c.i
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jcprepct.c.i
 .PHONY : jcprepct.c.i
 
 jcprepct.s: jcprepct.c.s
@@ -531,7 +531,7 @@ jcprepct.s: jcprepct.c.s
 
 # target to generate assembly for a file
 jcprepct.c.s:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jcprepct.c.s
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jcprepct.c.s
 .PHONY : jcprepct.c.s
 
 jcsample.obj: jcsample.c.obj
@@ -539,7 +539,7 @@ jcsample.obj: jcsample.c.obj
 
 # target to build an object file
 jcsample.c.obj:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jcsample.c.obj
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jcsample.c.obj
 .PHONY : jcsample.c.obj
 
 jcsample.i: jcsample.c.i
@@ -547,7 +547,7 @@ jcsample.i: jcsample.c.i
 
 # target to preprocess a source file
 jcsample.c.i:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jcsample.c.i
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jcsample.c.i
 .PHONY : jcsample.c.i
 
 jcsample.s: jcsample.c.s
@@ -555,7 +555,7 @@ jcsample.s: jcsample.c.s
 
 # target to generate assembly for a file
 jcsample.c.s:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jcsample.c.s
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jcsample.c.s
 .PHONY : jcsample.c.s
 
 jctrans.obj: jctrans.c.obj
@@ -563,7 +563,7 @@ jctrans.obj: jctrans.c.obj
 
 # target to build an object file
 jctrans.c.obj:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jctrans.c.obj
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jctrans.c.obj
 .PHONY : jctrans.c.obj
 
 jctrans.i: jctrans.c.i
@@ -571,7 +571,7 @@ jctrans.i: jctrans.c.i
 
 # target to preprocess a source file
 jctrans.c.i:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jctrans.c.i
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jctrans.c.i
 .PHONY : jctrans.c.i
 
 jctrans.s: jctrans.c.s
@@ -579,7 +579,7 @@ jctrans.s: jctrans.c.s
 
 # target to generate assembly for a file
 jctrans.c.s:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jctrans.c.s
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jctrans.c.s
 .PHONY : jctrans.c.s
 
 jdapimin.obj: jdapimin.c.obj
@@ -587,7 +587,7 @@ jdapimin.obj: jdapimin.c.obj
 
 # target to build an object file
 jdapimin.c.obj:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jdapimin.c.obj
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jdapimin.c.obj
 .PHONY : jdapimin.c.obj
 
 jdapimin.i: jdapimin.c.i
@@ -595,7 +595,7 @@ jdapimin.i: jdapimin.c.i
 
 # target to preprocess a source file
 jdapimin.c.i:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jdapimin.c.i
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jdapimin.c.i
 .PHONY : jdapimin.c.i
 
 jdapimin.s: jdapimin.c.s
@@ -603,7 +603,7 @@ jdapimin.s: jdapimin.c.s
 
 # target to generate assembly for a file
 jdapimin.c.s:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jdapimin.c.s
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jdapimin.c.s
 .PHONY : jdapimin.c.s
 
 jdapistd.obj: jdapistd.c.obj
@@ -611,7 +611,7 @@ jdapistd.obj: jdapistd.c.obj
 
 # target to build an object file
 jdapistd.c.obj:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jdapistd.c.obj
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jdapistd.c.obj
 .PHONY : jdapistd.c.obj
 
 jdapistd.i: jdapistd.c.i
@@ -619,7 +619,7 @@ jdapistd.i: jdapistd.c.i
 
 # target to preprocess a source file
 jdapistd.c.i:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jdapistd.c.i
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jdapistd.c.i
 .PHONY : jdapistd.c.i
 
 jdapistd.s: jdapistd.c.s
@@ -627,7 +627,7 @@ jdapistd.s: jdapistd.c.s
 
 # target to generate assembly for a file
 jdapistd.c.s:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jdapistd.c.s
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jdapistd.c.s
 .PHONY : jdapistd.c.s
 
 jdarith.obj: jdarith.c.obj
@@ -635,7 +635,7 @@ jdarith.obj: jdarith.c.obj
 
 # target to build an object file
 jdarith.c.obj:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jdarith.c.obj
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jdarith.c.obj
 .PHONY : jdarith.c.obj
 
 jdarith.i: jdarith.c.i
@@ -643,7 +643,7 @@ jdarith.i: jdarith.c.i
 
 # target to preprocess a source file
 jdarith.c.i:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jdarith.c.i
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jdarith.c.i
 .PHONY : jdarith.c.i
 
 jdarith.s: jdarith.c.s
@@ -651,7 +651,7 @@ jdarith.s: jdarith.c.s
 
 # target to generate assembly for a file
 jdarith.c.s:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jdarith.c.s
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jdarith.c.s
 .PHONY : jdarith.c.s
 
 jdatadst.obj: jdatadst.c.obj
@@ -659,7 +659,7 @@ jdatadst.obj: jdatadst.c.obj
 
 # target to build an object file
 jdatadst.c.obj:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jdatadst.c.obj
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jdatadst.c.obj
 .PHONY : jdatadst.c.obj
 
 jdatadst.i: jdatadst.c.i
@@ -667,7 +667,7 @@ jdatadst.i: jdatadst.c.i
 
 # target to preprocess a source file
 jdatadst.c.i:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jdatadst.c.i
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jdatadst.c.i
 .PHONY : jdatadst.c.i
 
 jdatadst.s: jdatadst.c.s
@@ -675,7 +675,7 @@ jdatadst.s: jdatadst.c.s
 
 # target to generate assembly for a file
 jdatadst.c.s:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jdatadst.c.s
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jdatadst.c.s
 .PHONY : jdatadst.c.s
 
 jdatasrc.obj: jdatasrc.c.obj
@@ -683,7 +683,7 @@ jdatasrc.obj: jdatasrc.c.obj
 
 # target to build an object file
 jdatasrc.c.obj:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jdatasrc.c.obj
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jdatasrc.c.obj
 .PHONY : jdatasrc.c.obj
 
 jdatasrc.i: jdatasrc.c.i
@@ -691,7 +691,7 @@ jdatasrc.i: jdatasrc.c.i
 
 # target to preprocess a source file
 jdatasrc.c.i:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jdatasrc.c.i
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jdatasrc.c.i
 .PHONY : jdatasrc.c.i
 
 jdatasrc.s: jdatasrc.c.s
@@ -699,7 +699,7 @@ jdatasrc.s: jdatasrc.c.s
 
 # target to generate assembly for a file
 jdatasrc.c.s:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jdatasrc.c.s
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jdatasrc.c.s
 .PHONY : jdatasrc.c.s
 
 jdcoefct.obj: jdcoefct.c.obj
@@ -707,7 +707,7 @@ jdcoefct.obj: jdcoefct.c.obj
 
 # target to build an object file
 jdcoefct.c.obj:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jdcoefct.c.obj
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jdcoefct.c.obj
 .PHONY : jdcoefct.c.obj
 
 jdcoefct.i: jdcoefct.c.i
@@ -715,7 +715,7 @@ jdcoefct.i: jdcoefct.c.i
 
 # target to preprocess a source file
 jdcoefct.c.i:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jdcoefct.c.i
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jdcoefct.c.i
 .PHONY : jdcoefct.c.i
 
 jdcoefct.s: jdcoefct.c.s
@@ -723,7 +723,7 @@ jdcoefct.s: jdcoefct.c.s
 
 # target to generate assembly for a file
 jdcoefct.c.s:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jdcoefct.c.s
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jdcoefct.c.s
 .PHONY : jdcoefct.c.s
 
 jdcolor.obj: jdcolor.c.obj
@@ -731,7 +731,7 @@ jdcolor.obj: jdcolor.c.obj
 
 # target to build an object file
 jdcolor.c.obj:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jdcolor.c.obj
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jdcolor.c.obj
 .PHONY : jdcolor.c.obj
 
 jdcolor.i: jdcolor.c.i
@@ -739,7 +739,7 @@ jdcolor.i: jdcolor.c.i
 
 # target to preprocess a source file
 jdcolor.c.i:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jdcolor.c.i
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jdcolor.c.i
 .PHONY : jdcolor.c.i
 
 jdcolor.s: jdcolor.c.s
@@ -747,7 +747,7 @@ jdcolor.s: jdcolor.c.s
 
 # target to generate assembly for a file
 jdcolor.c.s:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jdcolor.c.s
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jdcolor.c.s
 .PHONY : jdcolor.c.s
 
 jddctmgr.obj: jddctmgr.c.obj
@@ -755,7 +755,7 @@ jddctmgr.obj: jddctmgr.c.obj
 
 # target to build an object file
 jddctmgr.c.obj:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jddctmgr.c.obj
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jddctmgr.c.obj
 .PHONY : jddctmgr.c.obj
 
 jddctmgr.i: jddctmgr.c.i
@@ -763,7 +763,7 @@ jddctmgr.i: jddctmgr.c.i
 
 # target to preprocess a source file
 jddctmgr.c.i:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jddctmgr.c.i
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jddctmgr.c.i
 .PHONY : jddctmgr.c.i
 
 jddctmgr.s: jddctmgr.c.s
@@ -771,7 +771,7 @@ jddctmgr.s: jddctmgr.c.s
 
 # target to generate assembly for a file
 jddctmgr.c.s:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jddctmgr.c.s
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jddctmgr.c.s
 .PHONY : jddctmgr.c.s
 
 jdhuff.obj: jdhuff.c.obj
@@ -779,7 +779,7 @@ jdhuff.obj: jdhuff.c.obj
 
 # target to build an object file
 jdhuff.c.obj:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jdhuff.c.obj
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jdhuff.c.obj
 .PHONY : jdhuff.c.obj
 
 jdhuff.i: jdhuff.c.i
@@ -787,7 +787,7 @@ jdhuff.i: jdhuff.c.i
 
 # target to preprocess a source file
 jdhuff.c.i:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jdhuff.c.i
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jdhuff.c.i
 .PHONY : jdhuff.c.i
 
 jdhuff.s: jdhuff.c.s
@@ -795,7 +795,7 @@ jdhuff.s: jdhuff.c.s
 
 # target to generate assembly for a file
 jdhuff.c.s:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jdhuff.c.s
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jdhuff.c.s
 .PHONY : jdhuff.c.s
 
 jdinput.obj: jdinput.c.obj
@@ -803,7 +803,7 @@ jdinput.obj: jdinput.c.obj
 
 # target to build an object file
 jdinput.c.obj:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jdinput.c.obj
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jdinput.c.obj
 .PHONY : jdinput.c.obj
 
 jdinput.i: jdinput.c.i
@@ -811,7 +811,7 @@ jdinput.i: jdinput.c.i
 
 # target to preprocess a source file
 jdinput.c.i:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jdinput.c.i
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jdinput.c.i
 .PHONY : jdinput.c.i
 
 jdinput.s: jdinput.c.s
@@ -819,7 +819,7 @@ jdinput.s: jdinput.c.s
 
 # target to generate assembly for a file
 jdinput.c.s:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jdinput.c.s
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jdinput.c.s
 .PHONY : jdinput.c.s
 
 jdmainct.obj: jdmainct.c.obj
@@ -827,7 +827,7 @@ jdmainct.obj: jdmainct.c.obj
 
 # target to build an object file
 jdmainct.c.obj:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jdmainct.c.obj
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jdmainct.c.obj
 .PHONY : jdmainct.c.obj
 
 jdmainct.i: jdmainct.c.i
@@ -835,7 +835,7 @@ jdmainct.i: jdmainct.c.i
 
 # target to preprocess a source file
 jdmainct.c.i:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jdmainct.c.i
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jdmainct.c.i
 .PHONY : jdmainct.c.i
 
 jdmainct.s: jdmainct.c.s
@@ -843,7 +843,7 @@ jdmainct.s: jdmainct.c.s
 
 # target to generate assembly for a file
 jdmainct.c.s:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jdmainct.c.s
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jdmainct.c.s
 .PHONY : jdmainct.c.s
 
 jdmarker.obj: jdmarker.c.obj
@@ -851,7 +851,7 @@ jdmarker.obj: jdmarker.c.obj
 
 # target to build an object file
 jdmarker.c.obj:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jdmarker.c.obj
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jdmarker.c.obj
 .PHONY : jdmarker.c.obj
 
 jdmarker.i: jdmarker.c.i
@@ -859,7 +859,7 @@ jdmarker.i: jdmarker.c.i
 
 # target to preprocess a source file
 jdmarker.c.i:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jdmarker.c.i
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jdmarker.c.i
 .PHONY : jdmarker.c.i
 
 jdmarker.s: jdmarker.c.s
@@ -867,7 +867,7 @@ jdmarker.s: jdmarker.c.s
 
 # target to generate assembly for a file
 jdmarker.c.s:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jdmarker.c.s
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jdmarker.c.s
 .PHONY : jdmarker.c.s
 
 jdmaster.obj: jdmaster.c.obj
@@ -875,7 +875,7 @@ jdmaster.obj: jdmaster.c.obj
 
 # target to build an object file
 jdmaster.c.obj:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jdmaster.c.obj
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jdmaster.c.obj
 .PHONY : jdmaster.c.obj
 
 jdmaster.i: jdmaster.c.i
@@ -883,7 +883,7 @@ jdmaster.i: jdmaster.c.i
 
 # target to preprocess a source file
 jdmaster.c.i:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jdmaster.c.i
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jdmaster.c.i
 .PHONY : jdmaster.c.i
 
 jdmaster.s: jdmaster.c.s
@@ -891,7 +891,7 @@ jdmaster.s: jdmaster.c.s
 
 # target to generate assembly for a file
 jdmaster.c.s:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jdmaster.c.s
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jdmaster.c.s
 .PHONY : jdmaster.c.s
 
 jdmerge.obj: jdmerge.c.obj
@@ -899,7 +899,7 @@ jdmerge.obj: jdmerge.c.obj
 
 # target to build an object file
 jdmerge.c.obj:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jdmerge.c.obj
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jdmerge.c.obj
 .PHONY : jdmerge.c.obj
 
 jdmerge.i: jdmerge.c.i
@@ -907,7 +907,7 @@ jdmerge.i: jdmerge.c.i
 
 # target to preprocess a source file
 jdmerge.c.i:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jdmerge.c.i
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jdmerge.c.i
 .PHONY : jdmerge.c.i
 
 jdmerge.s: jdmerge.c.s
@@ -915,7 +915,7 @@ jdmerge.s: jdmerge.c.s
 
 # target to generate assembly for a file
 jdmerge.c.s:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jdmerge.c.s
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jdmerge.c.s
 .PHONY : jdmerge.c.s
 
 jdpostct.obj: jdpostct.c.obj
@@ -923,7 +923,7 @@ jdpostct.obj: jdpostct.c.obj
 
 # target to build an object file
 jdpostct.c.obj:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jdpostct.c.obj
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jdpostct.c.obj
 .PHONY : jdpostct.c.obj
 
 jdpostct.i: jdpostct.c.i
@@ -931,7 +931,7 @@ jdpostct.i: jdpostct.c.i
 
 # target to preprocess a source file
 jdpostct.c.i:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jdpostct.c.i
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jdpostct.c.i
 .PHONY : jdpostct.c.i
 
 jdpostct.s: jdpostct.c.s
@@ -939,7 +939,7 @@ jdpostct.s: jdpostct.c.s
 
 # target to generate assembly for a file
 jdpostct.c.s:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jdpostct.c.s
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jdpostct.c.s
 .PHONY : jdpostct.c.s
 
 jdsample.obj: jdsample.c.obj
@@ -947,7 +947,7 @@ jdsample.obj: jdsample.c.obj
 
 # target to build an object file
 jdsample.c.obj:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jdsample.c.obj
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jdsample.c.obj
 .PHONY : jdsample.c.obj
 
 jdsample.i: jdsample.c.i
@@ -955,7 +955,7 @@ jdsample.i: jdsample.c.i
 
 # target to preprocess a source file
 jdsample.c.i:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jdsample.c.i
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jdsample.c.i
 .PHONY : jdsample.c.i
 
 jdsample.s: jdsample.c.s
@@ -963,7 +963,7 @@ jdsample.s: jdsample.c.s
 
 # target to generate assembly for a file
 jdsample.c.s:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jdsample.c.s
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jdsample.c.s
 .PHONY : jdsample.c.s
 
 jdtrans.obj: jdtrans.c.obj
@@ -971,7 +971,7 @@ jdtrans.obj: jdtrans.c.obj
 
 # target to build an object file
 jdtrans.c.obj:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jdtrans.c.obj
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jdtrans.c.obj
 .PHONY : jdtrans.c.obj
 
 jdtrans.i: jdtrans.c.i
@@ -979,7 +979,7 @@ jdtrans.i: jdtrans.c.i
 
 # target to preprocess a source file
 jdtrans.c.i:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jdtrans.c.i
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jdtrans.c.i
 .PHONY : jdtrans.c.i
 
 jdtrans.s: jdtrans.c.s
@@ -987,7 +987,7 @@ jdtrans.s: jdtrans.c.s
 
 # target to generate assembly for a file
 jdtrans.c.s:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jdtrans.c.s
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jdtrans.c.s
 .PHONY : jdtrans.c.s
 
 jerror.obj: jerror.c.obj
@@ -995,7 +995,7 @@ jerror.obj: jerror.c.obj
 
 # target to build an object file
 jerror.c.obj:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jerror.c.obj
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jerror.c.obj
 .PHONY : jerror.c.obj
 
 jerror.i: jerror.c.i
@@ -1003,7 +1003,7 @@ jerror.i: jerror.c.i
 
 # target to preprocess a source file
 jerror.c.i:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jerror.c.i
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jerror.c.i
 .PHONY : jerror.c.i
 
 jerror.s: jerror.c.s
@@ -1011,7 +1011,7 @@ jerror.s: jerror.c.s
 
 # target to generate assembly for a file
 jerror.c.s:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jerror.c.s
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jerror.c.s
 .PHONY : jerror.c.s
 
 jfdctflt.obj: jfdctflt.c.obj
@@ -1019,7 +1019,7 @@ jfdctflt.obj: jfdctflt.c.obj
 
 # target to build an object file
 jfdctflt.c.obj:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jfdctflt.c.obj
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jfdctflt.c.obj
 .PHONY : jfdctflt.c.obj
 
 jfdctflt.i: jfdctflt.c.i
@@ -1027,7 +1027,7 @@ jfdctflt.i: jfdctflt.c.i
 
 # target to preprocess a source file
 jfdctflt.c.i:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jfdctflt.c.i
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jfdctflt.c.i
 .PHONY : jfdctflt.c.i
 
 jfdctflt.s: jfdctflt.c.s
@@ -1035,7 +1035,7 @@ jfdctflt.s: jfdctflt.c.s
 
 # target to generate assembly for a file
 jfdctflt.c.s:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jfdctflt.c.s
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jfdctflt.c.s
 .PHONY : jfdctflt.c.s
 
 jfdctfst.obj: jfdctfst.c.obj
@@ -1043,7 +1043,7 @@ jfdctfst.obj: jfdctfst.c.obj
 
 # target to build an object file
 jfdctfst.c.obj:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jfdctfst.c.obj
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jfdctfst.c.obj
 .PHONY : jfdctfst.c.obj
 
 jfdctfst.i: jfdctfst.c.i
@@ -1051,7 +1051,7 @@ jfdctfst.i: jfdctfst.c.i
 
 # target to preprocess a source file
 jfdctfst.c.i:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jfdctfst.c.i
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jfdctfst.c.i
 .PHONY : jfdctfst.c.i
 
 jfdctfst.s: jfdctfst.c.s
@@ -1059,7 +1059,7 @@ jfdctfst.s: jfdctfst.c.s
 
 # target to generate assembly for a file
 jfdctfst.c.s:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jfdctfst.c.s
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jfdctfst.c.s
 .PHONY : jfdctfst.c.s
 
 jfdctint.obj: jfdctint.c.obj
@@ -1067,7 +1067,7 @@ jfdctint.obj: jfdctint.c.obj
 
 # target to build an object file
 jfdctint.c.obj:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jfdctint.c.obj
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jfdctint.c.obj
 .PHONY : jfdctint.c.obj
 
 jfdctint.i: jfdctint.c.i
@@ -1075,7 +1075,7 @@ jfdctint.i: jfdctint.c.i
 
 # target to preprocess a source file
 jfdctint.c.i:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jfdctint.c.i
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jfdctint.c.i
 .PHONY : jfdctint.c.i
 
 jfdctint.s: jfdctint.c.s
@@ -1083,7 +1083,7 @@ jfdctint.s: jfdctint.c.s
 
 # target to generate assembly for a file
 jfdctint.c.s:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jfdctint.c.s
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jfdctint.c.s
 .PHONY : jfdctint.c.s
 
 jidctflt.obj: jidctflt.c.obj
@@ -1091,7 +1091,7 @@ jidctflt.obj: jidctflt.c.obj
 
 # target to build an object file
 jidctflt.c.obj:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jidctflt.c.obj
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jidctflt.c.obj
 .PHONY : jidctflt.c.obj
 
 jidctflt.i: jidctflt.c.i
@@ -1099,7 +1099,7 @@ jidctflt.i: jidctflt.c.i
 
 # target to preprocess a source file
 jidctflt.c.i:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jidctflt.c.i
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jidctflt.c.i
 .PHONY : jidctflt.c.i
 
 jidctflt.s: jidctflt.c.s
@@ -1107,7 +1107,7 @@ jidctflt.s: jidctflt.c.s
 
 # target to generate assembly for a file
 jidctflt.c.s:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jidctflt.c.s
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jidctflt.c.s
 .PHONY : jidctflt.c.s
 
 jidctfst.obj: jidctfst.c.obj
@@ -1115,7 +1115,7 @@ jidctfst.obj: jidctfst.c.obj
 
 # target to build an object file
 jidctfst.c.obj:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jidctfst.c.obj
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jidctfst.c.obj
 .PHONY : jidctfst.c.obj
 
 jidctfst.i: jidctfst.c.i
@@ -1123,7 +1123,7 @@ jidctfst.i: jidctfst.c.i
 
 # target to preprocess a source file
 jidctfst.c.i:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jidctfst.c.i
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jidctfst.c.i
 .PHONY : jidctfst.c.i
 
 jidctfst.s: jidctfst.c.s
@@ -1131,7 +1131,7 @@ jidctfst.s: jidctfst.c.s
 
 # target to generate assembly for a file
 jidctfst.c.s:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jidctfst.c.s
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jidctfst.c.s
 .PHONY : jidctfst.c.s
 
 jidctint.obj: jidctint.c.obj
@@ -1139,7 +1139,7 @@ jidctint.obj: jidctint.c.obj
 
 # target to build an object file
 jidctint.c.obj:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jidctint.c.obj
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jidctint.c.obj
 .PHONY : jidctint.c.obj
 
 jidctint.i: jidctint.c.i
@@ -1147,7 +1147,7 @@ jidctint.i: jidctint.c.i
 
 # target to preprocess a source file
 jidctint.c.i:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jidctint.c.i
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jidctint.c.i
 .PHONY : jidctint.c.i
 
 jidctint.s: jidctint.c.s
@@ -1155,7 +1155,7 @@ jidctint.s: jidctint.c.s
 
 # target to generate assembly for a file
 jidctint.c.s:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jidctint.c.s
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jidctint.c.s
 .PHONY : jidctint.c.s
 
 jmemmgr.obj: jmemmgr.c.obj
@@ -1163,7 +1163,7 @@ jmemmgr.obj: jmemmgr.c.obj
 
 # target to build an object file
 jmemmgr.c.obj:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jmemmgr.c.obj
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jmemmgr.c.obj
 .PHONY : jmemmgr.c.obj
 
 jmemmgr.i: jmemmgr.c.i
@@ -1171,7 +1171,7 @@ jmemmgr.i: jmemmgr.c.i
 
 # target to preprocess a source file
 jmemmgr.c.i:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jmemmgr.c.i
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jmemmgr.c.i
 .PHONY : jmemmgr.c.i
 
 jmemmgr.s: jmemmgr.c.s
@@ -1179,7 +1179,7 @@ jmemmgr.s: jmemmgr.c.s
 
 # target to generate assembly for a file
 jmemmgr.c.s:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jmemmgr.c.s
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jmemmgr.c.s
 .PHONY : jmemmgr.c.s
 
 jmemnobs.obj: jmemnobs.c.obj
@@ -1187,7 +1187,7 @@ jmemnobs.obj: jmemnobs.c.obj
 
 # target to build an object file
 jmemnobs.c.obj:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jmemnobs.c.obj
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jmemnobs.c.obj
 .PHONY : jmemnobs.c.obj
 
 jmemnobs.i: jmemnobs.c.i
@@ -1195,7 +1195,7 @@ jmemnobs.i: jmemnobs.c.i
 
 # target to preprocess a source file
 jmemnobs.c.i:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jmemnobs.c.i
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jmemnobs.c.i
 .PHONY : jmemnobs.c.i
 
 jmemnobs.s: jmemnobs.c.s
@@ -1203,7 +1203,7 @@ jmemnobs.s: jmemnobs.c.s
 
 # target to generate assembly for a file
 jmemnobs.c.s:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jmemnobs.c.s
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jmemnobs.c.s
 .PHONY : jmemnobs.c.s
 
 jquant1.obj: jquant1.c.obj
@@ -1211,7 +1211,7 @@ jquant1.obj: jquant1.c.obj
 
 # target to build an object file
 jquant1.c.obj:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jquant1.c.obj
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jquant1.c.obj
 .PHONY : jquant1.c.obj
 
 jquant1.i: jquant1.c.i
@@ -1219,7 +1219,7 @@ jquant1.i: jquant1.c.i
 
 # target to preprocess a source file
 jquant1.c.i:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jquant1.c.i
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jquant1.c.i
 .PHONY : jquant1.c.i
 
 jquant1.s: jquant1.c.s
@@ -1227,7 +1227,7 @@ jquant1.s: jquant1.c.s
 
 # target to generate assembly for a file
 jquant1.c.s:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jquant1.c.s
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jquant1.c.s
 .PHONY : jquant1.c.s
 
 jquant2.obj: jquant2.c.obj
@@ -1235,7 +1235,7 @@ jquant2.obj: jquant2.c.obj
 
 # target to build an object file
 jquant2.c.obj:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jquant2.c.obj
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jquant2.c.obj
 .PHONY : jquant2.c.obj
 
 jquant2.i: jquant2.c.i
@@ -1243,7 +1243,7 @@ jquant2.i: jquant2.c.i
 
 # target to preprocess a source file
 jquant2.c.i:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jquant2.c.i
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jquant2.c.i
 .PHONY : jquant2.c.i
 
 jquant2.s: jquant2.c.s
@@ -1251,7 +1251,7 @@ jquant2.s: jquant2.c.s
 
 # target to generate assembly for a file
 jquant2.c.s:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jquant2.c.s
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jquant2.c.s
 .PHONY : jquant2.c.s
 
 jutils.obj: jutils.c.obj
@@ -1259,7 +1259,7 @@ jutils.obj: jutils.c.obj
 
 # target to build an object file
 jutils.c.obj:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jutils.c.obj
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jutils.c.obj
 .PHONY : jutils.c.obj
 
 jutils.i: jutils.c.i
@@ -1267,7 +1267,7 @@ jutils.i: jutils.c.i
 
 # target to preprocess a source file
 jutils.c.i:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jutils.c.i
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jutils.c.i
 .PHONY : jutils.c.i
 
 jutils.s: jutils.c.s
@@ -1275,7 +1275,7 @@ jutils.s: jutils.c.s
 
 # target to generate assembly for a file
 jutils.c.s:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jutils.c.s
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\jpeg\CMakeFiles\fltk_jpeg.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/jpeg/CMakeFiles/fltk_jpeg.dir/jutils.c.s
 .PHONY : jutils.c.s
 
 # Help Target
@@ -1440,6 +1440,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -16,12 +16,12 @@
 #     https://www.fltk.org/bugs.php
 #
 
-if(NOT EXISTS "C:/Users/Hayes/CLionProjects/Project3/cmake-build-debug/cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/install_manifest.txt")
+if(NOT EXISTS "C:/Users/kaleb_/OneDrive/Documents/Project3/cmake-build-debug/cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/install_manifest.txt")
   message(FATAL_ERROR
-          "Cannot find install manifest: \"C:/Users/Hayes/CLionProjects/Project3/cmake-build-debug/cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/install_manifest.txt\"")
+          "Cannot find install manifest: \"C:/Users/kaleb_/OneDrive/Documents/Project3/cmake-build-debug/cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/install_manifest.txt\"")
 endif()
 
-file(READ "C:/Users/Hayes/CLionProjects/Project3/cmake-build-debug/cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/install_manifest.txt" files)
+file(READ "C:/Users/kaleb_/OneDrive/Documents/Project3/cmake-build-debug/cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/install_manifest.txt" files)
 string(REGEX REPLACE "\n" ";" files "${files}")
 
 # Note 1: 'cmake -E remove [-f]' is deprecated since CMake 3.17 and the docs

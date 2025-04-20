@@ -38,7 +38,7 @@ set(FLTK_VERSION 1.4.2)
 
 include(${CMAKE_CURRENT_LIST_DIR}/FLTK-Targets.cmake)
 
-set(FLTK_INCLUDE_DIRS "C:/Users/Hayes/CLionProjects/Project3/cmake-build-debug/cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2;.")
+set(FLTK_INCLUDE_DIRS "C:/Users/kaleb_/OneDrive/Documents/Project3/cmake-build-debug/cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2;.")
 set(FLTK_LIBRARIES "fltk_z;fltk_png;fltk_jpeg;fltk;fltk_forms;fltk_images;fltk_gl")
 
 # For compatibility with CMake's FindFLTK.cmake:

@@ -56,10 +56,10 @@ RM = "C:\Program Files\JetBrains\CLion 2024.2.0.1\bin\cmake\win\x64\bin\cmake.ex
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Hayes\CLionProjects\Project3
+CMAKE_SOURCE_DIR = C:\Users\kaleb_\OneDrive\Documents\Project3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -131,14 +131,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug\CMakeFiles C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug\cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\\CMakeFiles\progress.marks
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug\CMakeFiles 0
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug\CMakeFiles C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug\cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\\CMakeFiles\progress.marks
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/clean
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/clean
 .PHONY : clean
 
 # The main clean target
@@ -147,22 +147,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/preinstall
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/preinstall
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/CMakeFiles/uninstall.dir/rule:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/CMakeFiles/uninstall.dir/rule
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/CMakeFiles/uninstall.dir/rule
 .PHONY : cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/CMakeFiles/uninstall.dir/rule
 
 # Convenience name for target.
@@ -171,7 +171,7 @@ uninstall: cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/CMakeFiles/uninst
 
 # fast build rule for target.
 uninstall/fast:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\CMakeFiles\uninstall.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/CMakeFiles/uninstall.dir/build
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(MAKE) $(MAKESILENT) -f cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\CMakeFiles\uninstall.dir\build.make cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/CMakeFiles/uninstall.dir/build
 .PHONY : uninstall/fast
 
 # Help Target
@@ -198,6 +198,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

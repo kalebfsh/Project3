@@ -52,10 +52,10 @@ RM = "C:\Program Files\JetBrains\CLion 2024.2.0.1\bin\cmake\win\x64\bin\cmake.ex
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Hayes\CLionProjects\Project3
+CMAKE_SOURCE_DIR = C:\Users\kaleb_\OneDrive\Documents\Project3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug
 
 # Utility rule file for uninstall.
 
@@ -66,7 +66,7 @@ include cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/CMakeFiles/uninstall
 include cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/CMakeFiles/uninstall.dir/progress.make
 
 cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/CMakeFiles/uninstall:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug\cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2 && "C:\Program Files\JetBrains\CLion 2024.2.0.1\bin\cmake\win\x64\bin\cmake.exe" -P C:/Users/Hayes/CLionProjects/Project3/cmake-build-debug/cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/cmake_uninstall.cmake
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug\cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2 && "C:\Program Files\JetBrains\CLion 2024.2.0.1\bin\cmake\win\x64\bin\cmake.exe" -P C:/Users/kaleb_/OneDrive/Documents/Project3/cmake-build-debug/cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/cmake_uninstall.cmake
 
 uninstall: cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/CMakeFiles/uninstall
 uninstall: cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/CMakeFiles/uninstall.dir/build.make
@@ -77,10 +77,10 @@ cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/CMakeFiles/uninstall.dir/bui
 .PHONY : cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/CMakeFiles/uninstall.dir/build
 
 cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/CMakeFiles/uninstall.dir/clean:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug\cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2 && $(CMAKE_COMMAND) -P CMakeFiles\uninstall.dir\cmake_clean.cmake
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug\cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2 && $(CMAKE_COMMAND) -P CMakeFiles\uninstall.dir\cmake_clean.cmake
 .PHONY : cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/CMakeFiles/uninstall.dir/clean
 
 cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/CMakeFiles/uninstall.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Hayes\CLionProjects\Project3 C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2 C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug\cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2 C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug\cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\CMakeFiles\uninstall.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\kaleb_\OneDrive\Documents\Project3 C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2 C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug\cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2 C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug\cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\CMakeFiles\uninstall.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/CMakeFiles/uninstall.dir/depend
 

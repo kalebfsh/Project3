@@ -52,10 +52,10 @@ RM = "C:\Program Files\JetBrains\CLion 2024.2.0.1\bin\cmake\win\x64\bin\cmake.ex
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Hayes\CLionProjects\Project3
+CMAKE_SOURCE_DIR = C:\Users\kaleb_\OneDrive\Documents\Project3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fluid/CMakeFiles/fluid.dir/depend.make
@@ -72,16 +72,16 @@ cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fluid/CMakeFiles/fluid.dir/f
 cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fluid/CMakeFiles/fluid.dir/fluid.cxx.obj: cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fluid/CMakeFiles/fluid.dir/includes_CXX.rsp
 cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fluid/CMakeFiles/fluid.dir/fluid.cxx.obj: fltk-1.4.2-source/fltk/fltk-1.4.2/fluid/fluid.cxx
 cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fluid/CMakeFiles/fluid.dir/fluid.cxx.obj: cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fluid/CMakeFiles/fluid.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fluid/CMakeFiles/fluid.dir/fluid.cxx.obj"
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug\cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\fluid && C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fluid/CMakeFiles/fluid.dir/fluid.cxx.obj -MF CMakeFiles\fluid.dir\fluid.cxx.obj.d -o CMakeFiles\fluid.dir\fluid.cxx.obj -c C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\fluid\fluid.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fluid/CMakeFiles/fluid.dir/fluid.cxx.obj"
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug\cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\fluid && C:\Users\kaleb_\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fluid/CMakeFiles/fluid.dir/fluid.cxx.obj -MF CMakeFiles\fluid.dir\fluid.cxx.obj.d -o CMakeFiles\fluid.dir\fluid.cxx.obj -c C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\fluid\fluid.cxx
 
 cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fluid/CMakeFiles/fluid.dir/fluid.cxx.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fluid.dir/fluid.cxx.i"
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug\cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\fluid && C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\fluid\fluid.cxx > CMakeFiles\fluid.dir\fluid.cxx.i
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug\cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\fluid && C:\Users\kaleb_\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\fluid\fluid.cxx > CMakeFiles\fluid.dir\fluid.cxx.i
 
 cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fluid/CMakeFiles/fluid.dir/fluid.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fluid.dir/fluid.cxx.s"
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug\cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\fluid && C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\fluid\fluid.cxx -o CMakeFiles\fluid.dir\fluid.cxx.s
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug\cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\fluid && C:\Users\kaleb_\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\fluid\fluid.cxx -o CMakeFiles\fluid.dir\fluid.cxx.s
 
 # Object files for target fluid
 fluid_OBJECTS = \
@@ -89,37 +89,37 @@ fluid_OBJECTS = \
 
 # External object files for target fluid
 fluid_EXTERNAL_OBJECTS = \
-"C:/Users/Hayes/CLionProjects/Project3/cmake-build-debug/cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fluid/CMakeFiles/fluid-lib.dir/CodeEditor.cxx.obj" \
-"C:/Users/Hayes/CLionProjects/Project3/cmake-build-debug/cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fluid/CMakeFiles/fluid-lib.dir/StyleParse.cxx.obj" \
-"C:/Users/Hayes/CLionProjects/Project3/cmake-build-debug/cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fluid/CMakeFiles/fluid-lib.dir/Fd_Snap_Action.cxx.obj" \
-"C:/Users/Hayes/CLionProjects/Project3/cmake-build-debug/cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fluid/CMakeFiles/fluid-lib.dir/Fl_Function_Type.cxx.obj" \
-"C:/Users/Hayes/CLionProjects/Project3/cmake-build-debug/cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fluid/CMakeFiles/fluid-lib.dir/Fl_Grid_Type.cxx.obj" \
-"C:/Users/Hayes/CLionProjects/Project3/cmake-build-debug/cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fluid/CMakeFiles/fluid-lib.dir/Fl_Group_Type.cxx.obj" \
-"C:/Users/Hayes/CLionProjects/Project3/cmake-build-debug/cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fluid/CMakeFiles/fluid-lib.dir/Fl_Menu_Type.cxx.obj" \
-"C:/Users/Hayes/CLionProjects/Project3/cmake-build-debug/cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fluid/CMakeFiles/fluid-lib.dir/Fl_Type.cxx.obj" \
-"C:/Users/Hayes/CLionProjects/Project3/cmake-build-debug/cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fluid/CMakeFiles/fluid-lib.dir/Fl_Widget_Type.cxx.obj" \
-"C:/Users/Hayes/CLionProjects/Project3/cmake-build-debug/cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fluid/CMakeFiles/fluid-lib.dir/Fl_Window_Type.cxx.obj" \
-"C:/Users/Hayes/CLionProjects/Project3/cmake-build-debug/cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fluid/CMakeFiles/fluid-lib.dir/Fl_Button_Type.cxx.obj" \
-"C:/Users/Hayes/CLionProjects/Project3/cmake-build-debug/cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fluid/CMakeFiles/fluid-lib.dir/Fluid_Image.cxx.obj" \
-"C:/Users/Hayes/CLionProjects/Project3/cmake-build-debug/cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fluid/CMakeFiles/fluid-lib.dir/about_panel.cxx.obj" \
-"C:/Users/Hayes/CLionProjects/Project3/cmake-build-debug/cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fluid/CMakeFiles/fluid-lib.dir/align_widget.cxx.obj" \
-"C:/Users/Hayes/CLionProjects/Project3/cmake-build-debug/cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fluid/CMakeFiles/fluid-lib.dir/settings_panel.cxx.obj" \
-"C:/Users/Hayes/CLionProjects/Project3/cmake-build-debug/cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fluid/CMakeFiles/fluid-lib.dir/autodoc.cxx.obj" \
-"C:/Users/Hayes/CLionProjects/Project3/cmake-build-debug/cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fluid/CMakeFiles/fluid-lib.dir/code.cxx.obj" \
-"C:/Users/Hayes/CLionProjects/Project3/cmake-build-debug/cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fluid/CMakeFiles/fluid-lib.dir/custom_widgets.cxx.obj" \
-"C:/Users/Hayes/CLionProjects/Project3/cmake-build-debug/cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fluid/CMakeFiles/fluid-lib.dir/factory.cxx.obj" \
-"C:/Users/Hayes/CLionProjects/Project3/cmake-build-debug/cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fluid/CMakeFiles/fluid-lib.dir/file.cxx.obj" \
-"C:/Users/Hayes/CLionProjects/Project3/cmake-build-debug/cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fluid/CMakeFiles/fluid-lib.dir/fluid_filename.cxx.obj" \
-"C:/Users/Hayes/CLionProjects/Project3/cmake-build-debug/cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fluid/CMakeFiles/fluid-lib.dir/function_panel.cxx.obj" \
-"C:/Users/Hayes/CLionProjects/Project3/cmake-build-debug/cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fluid/CMakeFiles/fluid-lib.dir/mergeback.cxx.obj" \
-"C:/Users/Hayes/CLionProjects/Project3/cmake-build-debug/cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fluid/CMakeFiles/fluid-lib.dir/pixmaps.cxx.obj" \
-"C:/Users/Hayes/CLionProjects/Project3/cmake-build-debug/cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fluid/CMakeFiles/fluid-lib.dir/shell_command.cxx.obj" \
-"C:/Users/Hayes/CLionProjects/Project3/cmake-build-debug/cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fluid/CMakeFiles/fluid-lib.dir/codeview_panel.cxx.obj" \
-"C:/Users/Hayes/CLionProjects/Project3/cmake-build-debug/cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fluid/CMakeFiles/fluid-lib.dir/template_panel.cxx.obj" \
-"C:/Users/Hayes/CLionProjects/Project3/cmake-build-debug/cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fluid/CMakeFiles/fluid-lib.dir/undo.cxx.obj" \
-"C:/Users/Hayes/CLionProjects/Project3/cmake-build-debug/cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fluid/CMakeFiles/fluid-lib.dir/widget_browser.cxx.obj" \
-"C:/Users/Hayes/CLionProjects/Project3/cmake-build-debug/cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fluid/CMakeFiles/fluid-lib.dir/widget_panel.cxx.obj" \
-"C:/Users/Hayes/CLionProjects/Project3/cmake-build-debug/cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fluid/CMakeFiles/fluid-lib.dir/ExternalCodeEditor_WIN32.cxx.obj"
+"C:/Users/kaleb_/OneDrive/Documents/Project3/cmake-build-debug/cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fluid/CMakeFiles/fluid-lib.dir/CodeEditor.cxx.obj" \
+"C:/Users/kaleb_/OneDrive/Documents/Project3/cmake-build-debug/cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fluid/CMakeFiles/fluid-lib.dir/StyleParse.cxx.obj" \
+"C:/Users/kaleb_/OneDrive/Documents/Project3/cmake-build-debug/cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fluid/CMakeFiles/fluid-lib.dir/Fd_Snap_Action.cxx.obj" \
+"C:/Users/kaleb_/OneDrive/Documents/Project3/cmake-build-debug/cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fluid/CMakeFiles/fluid-lib.dir/Fl_Function_Type.cxx.obj" \
+"C:/Users/kaleb_/OneDrive/Documents/Project3/cmake-build-debug/cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fluid/CMakeFiles/fluid-lib.dir/Fl_Grid_Type.cxx.obj" \
+"C:/Users/kaleb_/OneDrive/Documents/Project3/cmake-build-debug/cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fluid/CMakeFiles/fluid-lib.dir/Fl_Group_Type.cxx.obj" \
+"C:/Users/kaleb_/OneDrive/Documents/Project3/cmake-build-debug/cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fluid/CMakeFiles/fluid-lib.dir/Fl_Menu_Type.cxx.obj" \
+"C:/Users/kaleb_/OneDrive/Documents/Project3/cmake-build-debug/cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fluid/CMakeFiles/fluid-lib.dir/Fl_Type.cxx.obj" \
+"C:/Users/kaleb_/OneDrive/Documents/Project3/cmake-build-debug/cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fluid/CMakeFiles/fluid-lib.dir/Fl_Widget_Type.cxx.obj" \
+"C:/Users/kaleb_/OneDrive/Documents/Project3/cmake-build-debug/cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fluid/CMakeFiles/fluid-lib.dir/Fl_Window_Type.cxx.obj" \
+"C:/Users/kaleb_/OneDrive/Documents/Project3/cmake-build-debug/cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fluid/CMakeFiles/fluid-lib.dir/Fl_Button_Type.cxx.obj" \
+"C:/Users/kaleb_/OneDrive/Documents/Project3/cmake-build-debug/cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fluid/CMakeFiles/fluid-lib.dir/Fluid_Image.cxx.obj" \
+"C:/Users/kaleb_/OneDrive/Documents/Project3/cmake-build-debug/cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fluid/CMakeFiles/fluid-lib.dir/about_panel.cxx.obj" \
+"C:/Users/kaleb_/OneDrive/Documents/Project3/cmake-build-debug/cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fluid/CMakeFiles/fluid-lib.dir/align_widget.cxx.obj" \
+"C:/Users/kaleb_/OneDrive/Documents/Project3/cmake-build-debug/cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fluid/CMakeFiles/fluid-lib.dir/settings_panel.cxx.obj" \
+"C:/Users/kaleb_/OneDrive/Documents/Project3/cmake-build-debug/cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fluid/CMakeFiles/fluid-lib.dir/autodoc.cxx.obj" \
+"C:/Users/kaleb_/OneDrive/Documents/Project3/cmake-build-debug/cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fluid/CMakeFiles/fluid-lib.dir/code.cxx.obj" \
+"C:/Users/kaleb_/OneDrive/Documents/Project3/cmake-build-debug/cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fluid/CMakeFiles/fluid-lib.dir/custom_widgets.cxx.obj" \
+"C:/Users/kaleb_/OneDrive/Documents/Project3/cmake-build-debug/cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fluid/CMakeFiles/fluid-lib.dir/factory.cxx.obj" \
+"C:/Users/kaleb_/OneDrive/Documents/Project3/cmake-build-debug/cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fluid/CMakeFiles/fluid-lib.dir/file.cxx.obj" \
+"C:/Users/kaleb_/OneDrive/Documents/Project3/cmake-build-debug/cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fluid/CMakeFiles/fluid-lib.dir/fluid_filename.cxx.obj" \
+"C:/Users/kaleb_/OneDrive/Documents/Project3/cmake-build-debug/cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fluid/CMakeFiles/fluid-lib.dir/function_panel.cxx.obj" \
+"C:/Users/kaleb_/OneDrive/Documents/Project3/cmake-build-debug/cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fluid/CMakeFiles/fluid-lib.dir/mergeback.cxx.obj" \
+"C:/Users/kaleb_/OneDrive/Documents/Project3/cmake-build-debug/cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fluid/CMakeFiles/fluid-lib.dir/pixmaps.cxx.obj" \
+"C:/Users/kaleb_/OneDrive/Documents/Project3/cmake-build-debug/cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fluid/CMakeFiles/fluid-lib.dir/shell_command.cxx.obj" \
+"C:/Users/kaleb_/OneDrive/Documents/Project3/cmake-build-debug/cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fluid/CMakeFiles/fluid-lib.dir/codeview_panel.cxx.obj" \
+"C:/Users/kaleb_/OneDrive/Documents/Project3/cmake-build-debug/cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fluid/CMakeFiles/fluid-lib.dir/template_panel.cxx.obj" \
+"C:/Users/kaleb_/OneDrive/Documents/Project3/cmake-build-debug/cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fluid/CMakeFiles/fluid-lib.dir/undo.cxx.obj" \
+"C:/Users/kaleb_/OneDrive/Documents/Project3/cmake-build-debug/cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fluid/CMakeFiles/fluid-lib.dir/widget_browser.cxx.obj" \
+"C:/Users/kaleb_/OneDrive/Documents/Project3/cmake-build-debug/cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fluid/CMakeFiles/fluid-lib.dir/widget_panel.cxx.obj" \
+"C:/Users/kaleb_/OneDrive/Documents/Project3/cmake-build-debug/cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fluid/CMakeFiles/fluid-lib.dir/ExternalCodeEditor_WIN32.cxx.obj"
 
 cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/bin/fluid.exe: cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fluid/CMakeFiles/fluid.dir/fluid.cxx.obj
 cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/bin/fluid.exe: cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fluid/CMakeFiles/fluid-lib.dir/CodeEditor.cxx.obj
@@ -162,18 +162,18 @@ cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/bin/fluid.exe: cmake-build-d
 cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/bin/fluid.exe: cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fluid/CMakeFiles/fluid.dir/linkLibs.rsp
 cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/bin/fluid.exe: cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fluid/CMakeFiles/fluid.dir/objects1.rsp
 cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/bin/fluid.exe: cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fluid/CMakeFiles/fluid.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ..\bin\fluid.exe"
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug\cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\fluid && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\fluid.dir\link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ..\bin\fluid.exe"
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug\cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\fluid && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\fluid.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fluid/CMakeFiles/fluid.dir/build: cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/bin/fluid.exe
 .PHONY : cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fluid/CMakeFiles/fluid.dir/build
 
 cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fluid/CMakeFiles/fluid.dir/clean:
-	cd /d C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug\cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\fluid && $(CMAKE_COMMAND) -P CMakeFiles\fluid.dir\cmake_clean.cmake
+	cd /d C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug\cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\fluid && $(CMAKE_COMMAND) -P CMakeFiles\fluid.dir\cmake_clean.cmake
 .PHONY : cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fluid/CMakeFiles/fluid.dir/clean
 
 cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fluid/CMakeFiles/fluid.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Hayes\CLionProjects\Project3 C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\fluid C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug\cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\fluid C:\Users\Hayes\CLionProjects\Project3\cmake-build-debug\cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\fluid\CMakeFiles\fluid.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\kaleb_\OneDrive\Documents\Project3 C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\fluid C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug\cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\fluid C:\Users\kaleb_\OneDrive\Documents\Project3\cmake-build-debug\cmake-build-debug\fltk-1.4.2-source\fltk\fltk-1.4.2\fluid\CMakeFiles\fluid.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2/fluid/CMakeFiles/fluid.dir/depend
 

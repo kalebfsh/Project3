@@ -28,8 +28,8 @@ VERSION="$MAJOR_VERSION.$MINOR_VERSION.$PATCH_VERSION"
 APIVERSION="$MAJOR_VERSION.$MINOR_VERSION"
 
 # compiler names
-CC="C:/Program Files/JetBrains/CLion 2024.2.0.1/bin/mingw/bin/gcc.exe"
-CXX="C:/Program Files/JetBrains/CLion 2024.2.0.1/bin/mingw/bin/g++.exe"
+CC="C:/Users/kaleb_/mingw64/bin/gcc.exe"
+CXX="C:/Users/kaleb_/mingw64/bin/c++.exe"
 
 # flags for C++ compiler:
 ARCHFLAGS=""
@@ -42,9 +42,9 @@ CAIROFLAGS=""
 
 # BINARY_DIR: this is only set for CMake builds in the CMake build directory,
 # otherwise it is an empty string
-BINARY_DIR=C:/Users/Hayes/CLionProjects/Project3/cmake-build-debug/cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2
+BINARY_DIR=C:/Users/kaleb_/OneDrive/Documents/Project3/cmake-build-debug/cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2
 
-prefix="C:/Users/Hayes/CLionProjects/Project3/cmake-build-debug/cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2"
+prefix="C:/Users/kaleb_/OneDrive/Documents/Project3/cmake-build-debug/cmake-build-debug/fltk-1.4.2-source/fltk/fltk-1.4.2"
 exec_prefix="${prefix}"
 exec_prefix_set=no
 includedir="."
